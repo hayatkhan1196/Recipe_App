@@ -1,0 +1,57 @@
+.App {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to top,
+    #fcc5e4 0%,
+    #fda34b 15%,
+    #ff7882 35%,
+    #c8699e 52%,
+    #7046aa 71%,
+    #0c1db8 87%,
+    #020f75 100%
+  );
+}
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-search {
+  width: 60%;
+  border: none;
+  padding: 15px;
+  background: white;
+  border-radius: 20px;
+}
+.input-search:hover {
+  width: 60%;
+  border: none;
+  padding: 15px;
+  background: white;
+  border-radius: 20px;
+}
+.search-button {
+  margin-left: 10px;
+  background: lightcoral;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: none;
+
+  color: rgb(228, 233, 228);
+}
+
+.search-button:hover {
+  margin-left: 10px;
+  background: rgb(134, 230, 110);
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
+.recipe {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
