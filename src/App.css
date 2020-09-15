@@ -34,10 +34,12 @@
 .search-button {
   margin-left: 10px;
   background: lightcoral;
-  padding: 15px 20px;
-  border-radius: 10px;
+  height: 40px;
+  width: 80px;
+  border-radius: 15px;
   border: none;
-
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
   color: rgb(228, 233, 228);
 }
 

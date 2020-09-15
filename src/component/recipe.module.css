@@ -12,3 +12,13 @@
 .image {
   border-radius: 50%;
 }
+@media screen and (max-width: 530px) {
+  .image {
+    height: 250px;
+    width: 250px;
+  }
+  .search-button {
+    height: 250px;
+    width: 250px;
+  }
+}
